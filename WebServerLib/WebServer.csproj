@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>51333f94-a04f-4dec-8fbc-8ad4674f5f2e</ProjectGuid>
+    <ProjectGuid>{A09AEA04-AC7B-41CE-A4C7-BD460A3FDAFD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WebServerLib</RootNamespace>
