@@ -11,7 +11,7 @@ namespace SecurityObject
     {
         public Client(TcpClient TcpClient)
         {
-            string Html = "<html><body<h1>It works!</h1></body></html>";
+            string Html = "<html><body<h1>It works! Awesome!</h1></body></html>";
             string Str = "HTTP/1.1 200 OK\nContent-type: text/html\nContent-Length:" + Html.Length + "\n\n" + Html;
             byte[] Buffer = Encoding.ASCII.GetBytes(Str);
             TcpClient.GetStream().Write(Buffer, 0, Buffer.Length);
