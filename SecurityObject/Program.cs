@@ -9,7 +9,7 @@ namespace SecurityObject
     {
         static void Main(string[] args)
         {
-            new Server(8080);
+            new Server(8082);
         }
     }
 }
